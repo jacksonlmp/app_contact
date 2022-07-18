@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App Contatos</string>
+    <string name="contact_name">Nome contato</string>
+    <string name="number">(87) 99620-2910</string>
+</resources>
