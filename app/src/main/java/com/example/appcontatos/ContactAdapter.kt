@@ -11,7 +11,6 @@ class ContactAdapter: RecyclerView.Adapter<ContactViewHolder>() {
     fun updateItems(newItems: List<Contact>) {
         items = newItems
         //notifyDataSetChanged()
-
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ContactViewHolder {

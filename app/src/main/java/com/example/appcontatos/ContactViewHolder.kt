@@ -13,7 +13,7 @@ class ContactViewHolder(view: View): RecyclerView.ViewHolder(view) {
     //Manda informações para tela
     fun bind(item: Contact){
         textViewName.text = item.name
-        textViewName.text = item.telephone
+        textViewTelephone.text = item.telephone
     }
 
 }
